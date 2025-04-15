@@ -1,0 +1,140 @@
+<header class="main-header clearfix">
+    <div class="main-header__top">
+        <div class="container">
+            <div class="main-header__top-inner">
+                <div class="main-header__top-address">
+                    <ul class="list-unstyled main-header__top-address-list">
+                        <li>
+                            <i class="icon">
+                                <span class="icon-pin"></span>
+                            </i>
+                            <div class="text">
+                                <p>Surjani Town, Karachi, Pakistan</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon">
+                                <span class="icon-email"></span>
+                            </i>
+                            <div class="text">
+                                <p><a href="mailto:muhammadu7246.com">Muhammadu72462@gmail.com</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-header__top-right">
+                    <div class="main-header__top-menu-box">
+                        <ul class="list-unstyled main-header__top-menu">
+
+                            @*<li><a href="">@Html.ActionLink("FAQS", "FAQS", "Home")</a></li>*@
+                            <li><a href="about.html">@Html.ActionLink("About", "about", "User")</a></li>
+                            <li><a href="about.html">@Html.ActionLink("FAQS", "FAQS", "User")</a></li>
+                            <li><a href="about.html">@Html.ActionLink("contact", "contact", "User")</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-header__top-social-box">
+                        <div class="main-header__top-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-menu clearfix">
+        <div class="main-menu__wrapper clearfix">
+            <div class="container">
+                <div class="main-menu__wrapper-inner clearfix">
+                    <div class="main-menu__left">
+                        <div class="main-menu__logo">
+                            <a href="index.html"><img src="~/Content/assets/images/resources/logo-1.png" alt=""></a>
+                        </div>
+                        <div class="main-menu__main-menu-box">
+                            <div class="main-menu__main-menu-box-inner">
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <ul class="main-menu__list">
+                                    <li class="dropdown">
+                                        <a href="#">@Html.ActionLink("Home", "index", "User")</a>
+
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">@Html.ActionLink("Insurance", "insurance", "User") </a>
+                                        <ul>
+                                            <li>@Html.ActionLink("Life Insurance", "Life_insurance", "User")</li>
+                                            <li>@Html.ActionLink("Medical Insurance", "Medical_insurance", "User")</li>
+                                            <li>@Html.ActionLink("Moter Insurance", "Moter_insurance", "User")</li>
+                                            <li>@Html.ActionLink("Home Insurance", "home_insurance", "User")</li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">Profile</a>
+                                        <ul>
+                                            @if (Session["UserID"] != null)
+                                            {
+                                                <h2>Welcome, @Session["UserName"]!</h2>
+
+                                                <ul>
+                                                    @*<li><strong>User ID:</strong> @Session["UserID"]</li>*@
+                                                    <li><strong>Email:</strong> @Session["UserEmail"]</li>
+                                                    <li><strong>Phone:</strong> @Session["UserPhone"]</li>
+                                                </ul>
+                                            }
+                                            else
+                                            {
+                                                <h2>Welcome, Guest!</h2>
+                                                <p>Please <a href="@Url.Action("Login", "User")">log in</a> to access your account.</p>
+                                            }
+
+
+                                        </ul>
+                                    </li>
+                                    
+                                    <li>
+                                       @Html.ActionLink("price", "price", "User")
+                                    </li>
+                                    <li>
+                                        <a href="#">@Html.ActionLink("Proposal", "PolicyProposal", "User") 
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="main-menu__main-menu-box-search-get-quote-btn">
+
+                                <div class="main-menu__main-menu-box-get-quote-btn-box thm-btn main-menu__main-menu-box-get-quote-btn">
+                                    <a href="#" class="">
+                                        @if (Session["UserID"] != null)
+                                        {
+                                    @Html.ActionLink("Logout", "logout", "User")
+                                        }
+                                                else
+                                                {
+                                                    <a href="@Url.Action("Login", "User")">log in</a>}
+                              
+
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="main-menu__right">
+                        <div class="main-menu__call">
+                            <div class="main-menu__call-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="main-menu__call-content">
+                                <a href="tel:923140259522">+92 (314) 02-59522</a>
+                                <p>Call to Our Experts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

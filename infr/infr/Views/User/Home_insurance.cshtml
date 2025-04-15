@@ -1,0 +1,419 @@
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+
+
+    <div class="page-wrapper">
+        @{
+        Html.RenderPartial("_user_nav");
+        }
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header-bg" style="background-image: url(~/Content/assets/images/backgrounds/page-header-bg.jpg)">
+            </div>
+            <div class="page-header-shape-1"><img src="~/Content/assets/images/shapes/page-header-shape-1.png" alt=""></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li>Insurance</li>
+                    </ul>
+                    <h2>Life insurance</h2>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+        <!--Insurance Details Start-->
+        <section class="insurance-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="insurance-details__left">
+                            <div class="insurance-details__services-box">
+                                <ul class="insurance-details__services-list list-unstyled">
+                                    <li>
+                                        <a href="car-insurance.html">
+                                            @Html.ActionLink("Moter Insurance", "Moter_insurance", "Home")<span class="icon-right-arrow1"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            @Html.ActionLink("Life Insurance", "Life_insurance", "Home")<span class="icon-right-arrow1"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="home-insurance.html">@Html.ActionLink("Home Insurance", "home_insurance", "Home")</a>
+                                    </li>
+                                    <li>
+                                        <a href="health-insurance.html">
+                                            @Html.ActionLink("Medical Insurance", "Medical_insurance", "Home")<span class="icon-right-arrow1"></span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="insurance-details__download">
+                                <h3 class="insurance-details__download-title">Download resources</h3>
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="insurance-details__download-single">
+                                            <div class="insurance-details__download-icon">
+                                                <span class="insur-three-icon-pdf-file"></span>
+                                            </div>
+                                            <p class="insurance-details__download-mb">3.9KB</p>
+                                            <h3 class="insurance-details__download-title-2">
+                                                <a href="#">
+                                                    Travel plan &
+                                                    <br> policy
+                                                </a>
+                                            </h3>
+                                            <div class="insurance-details__download-btn-box">
+                                                <a href="#" class="insurance-details__download-btn thm-btn">Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="insurance-details__download-single">
+                                            <div class="insurance-details__download-icon">
+                                                <span class="insur-three-icon-pdf-file"></span>
+                                            </div>
+                                            <p class="insurance-details__download-mb">3.9KB</p>
+                                            <h3 class="insurance-details__download-title-2">
+                                                <a href="#">
+                                                    Travel plan &
+                                                    <br> policy
+                                                </a>
+                                            </h3>
+                                            <div class="insurance-details__download-btn-box">
+                                                <a href="#" class="insurance-details__download-btn thm-btn">Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="insurance-details__need-help">
+                                <div class="insurance-details__need-help-bg"
+                                     style="background-image: url(~/Content/assets/images//update-10-02-2023/resources/insurance-details-need-help-bg.jpg)">
+                                </div>
+                                <div class="insurance-details__need-help-icon">
+                                    <span class="insur-three-icon-call"></span>
+                                </div>
+                                <h2 class="insurance-details__need-help-title">
+                                    Talk to our
+                                    <br> insurance agent
+                                </h2>
+                                <div class="insurance-details__need-help-contact">
+                                    <a href="tel:+9200368090">+92 (003) 68-090</a>
+                                    <p>Call to Our Experts</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="insurance-details__right">
+                            <div class="insurance-details__img-1">
+                                <img src="~/Content/assets/images//update-10-02-2023/resources/insurance-details-img-8.jpg" alt="">
+                            </div>
+                            <div class="insurance-details__age-box">
+                                <div class="insurance-details__age-title-box">
+                                    <h3 class="insurance-details__age-title">Eligible ages:</h3>
+                                </div>
+                                <ul class="insurance-details__age-list list-unstyled">
+                                    <li>
+                                        <p>Minimum Age: <span>10 Years</span></p>
+                                    </li>
+                                    <li>
+                                        <p>Maximum Age: <span>65 Years</span></p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="insurance-details__text-1">
+                                Neque porro est qui dolorem ipsum quia quaed inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis
+                                enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply
+                                dummy text of the printing and typesetting industry.
+                            </p>
+                            <p class="insurance-details__text-2">
+                                Biophilia is the idea that humans possess an innate
+                                tendency to seek connections with nature. The term translates
+                            </p>
+                            <p class="insurance-details__text-3">
+                                When an unknown printer took a galley of type and
+                                scrambled it to make a type specimen book. It has survived not only five centuries, but
+                                also the leap into electronic typesetting, remaining essentially unchanged. Aelltes port
+                                lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is
+                                simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <div class="insurance-details__opportunities">
+                                <div class="insurance-details__opportunities-img">
+                                    <img src="~/Content/assets/images//update-10-02-2023/resources/insurance-details-opportunities-img.jpg"
+                                         alt="">
+                                    <div class="insurance-details__opportunities-hope">
+                                        <p>
+                                            Hope for the Best,
+                                            <br> Prepare for the Worst
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="insurance-details__opportunities-points-box">
+                                    <h3 class="insurance-details__opportunities-points-title">Main features</h3>
+                                    <p class="insurance-details__opportunities-points-text">
+                                        There are many variations of
+                                        passages of available but the majority have suffered alteration in some form, by
+                                        injected hum randomised words which don't slightly.
+                                    </p>
+                                    <ul class="insurance-details__opportunities-list list-unstyled">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>International Plans</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Domestic Plans</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Student Study Plans</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Specialized Investigations</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="insurance-details__points list-unstyled">
+                                <h2>Insurance Policies</h2>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Type</th>
+                                            <th scope="col">Premium</th>
+                                            <th scope="col">Coverage</th>
+                                            <th scope="col">Duration</th>
+                                            <th scope="col">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        @foreach (var policy in Model)
+                                        {
+                                        <tr>
+                                            <th scope="row">@policy.PolicyId</th>
+                                            <td>@policy.PolicyName</td>
+                                            <td>@policy.PolicyType</td>
+                                            <td>@policy.PremiumAmount</td>
+                                            <td>@policy.CoverageAmount</td>
+                                            <td>@policy.DurationInYears month</td>
+                                            <td>
+                                                <a href="@Url.Action("PolicyProposal", "User" , new { id=policy.PolicyId })" class="btn btn-primary">Activate</a>
+                                            </td>
+                                        </tr>
+                                        }
+
+                                    </tbody>
+                                </table>
+                                <li>
+                                    <div class="insurance-details__points-left">
+                                        <div class="insurance-details__points-icon">
+                                            <span class="icon-easy-to-use"></span>
+                                        </div>
+                                        <h3 class="insurance-details__points-title">Fast & Easy <br> Process</h3>
+                                    </div>
+                                    <div class="insurance-details__points-right">
+                                        <p>
+                                            There are many not of age of dirm available the simply free text available in
+                                            the market today you can use them majority.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="insurance-details__points-left">
+                                        <div class="insurance-details__points-icon">
+                                            <span class="icon-contract"></span>
+                                        </div>
+                                        <h3 class="insurance-details__points-title">Quick Claim <br> Handle</h3>
+                                    </div>
+                                    <div class="insurance-details__points-right">
+                                        <p>
+                                            There are many not of age of dirm available the simply free text available in
+                                            the market today you can use them majority.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="insurance-details__points-left">
+                                        <div class="insurance-details__points-icon">
+                                            <span class="icon-fund"></span>
+                                        </div>
+                                        <h3 class="insurance-details__points-title">Save Your <br> Money</h3>
+                                    </div>
+                                    <div class="insurance-details__points-right">
+                                        <p>
+                                            There are many not of age of dirm available the simply free text available in
+                                            the market today you can use them majority.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <h3 class="insurance-details__title-1">Talk to our insurance experts</h3>
+                            <p class="insurance-details__text-4">
+                                Speak with insurance experts and ask questions before
+                                finalizing your plans or if you want help regarding our services. Our dedicated staff is
+                                more than happy to call and guide you.
+                            </p>
+                            <form class="insurance-details__email-box">
+                                <div class="insurance-details__email-input-box">
+                                    <input type="text" placeholder="Your phone number" name="phone">
+                                </div>
+                                <button type="submit" class="insurance-details__subscribe-btn thm-btn">
+                                    Get a Phone
+                                    Call
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Insurance Details End-->
+        <!--Tracking Start-->
+        <section class="tracking">
+            <div class="container">
+                <div class="tracking__inner">
+                    <div class="tracking-shape-1 float-bob-y">
+                        <img src="~/Content/assets/images//shapes/tracking-shape-1.png" alt="">
+                    </div>
+                    <div class="tracking-shape-2 float-bob-x">
+                        <img src="~/Content/assets/images//shapes/tracking-shape-2.png" alt="">
+                    </div>
+                    <div class="tracking-shape-3 float-bob-x">
+                        <img src="~/Content/assets/images//shapes/tracking-shape-3.png" alt="">
+                    </div>
+                    <div class="tracking-shape-4 float-bob-y">
+                        <img src="~/Content/assets/images//shapes/tracking-shape-4.png" alt="">
+                    </div>
+                    <div class="tracking__left">
+                        <div class="tracking__icon">
+                            <span class="icon-folder"></span>
+                        </div>
+                        <div class="tracking__content">
+                            <p class="tracking__sub-title">Quisque vel ortor</p>
+                            <h3 class="tracking__title">Start tracking your claims</h3>
+                        </div>
+                    </div>
+                    <div class="tracking__btn-box">
+                        <a href="about.html" class="thm-btn tracking__btn">Track Your Claim</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Tracking End-->
+        <!--Site Footer Start-->
+        @{
+        Html.RenderPartial("_footer");
+        }
+        <!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image">
+                    <img src="~/Content/assets/images//resources/logo-2.png" width="143"
+                         alt="">
+                </a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here...">
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+</body>
+
+
+<!-- Mirrored from pixydrops.com/insur-html/main-html/life-insurance.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:51:15 GMT -->
+</html>

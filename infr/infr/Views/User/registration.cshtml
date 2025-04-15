@@ -1,0 +1,252 @@
+﻿@model infr.Models.user
+
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+
+
+    <div class="page-wrapper">
+        @{ Html.RenderPartial("_user_nav"); }
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header-bg" style="background-image: url(~/Content/assets/images/backgrounds/page-header-bg.jpg)">
+            </div>
+            <div class="page-header-shape-1"><img src="~/Content/assets/images/shapes/page-header-shape-1.png" alt=""></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li>Registration</li>
+                    </ul>
+                    <h2>Registration</h2>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+        <!--Contact Page Start-->
+        <section class="contact-page">
+            <div class="container">
+                <div class="sign-in__top">
+                    <p>
+                        We have a already account. <span>Username:</span> <span class="span-two">demo</span> and
+                        <span>Password:</span> <span class="span-two">demo || </span><a href="">@Html.ActionLink(" so click here", "Login", "User")</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="contact-page__left">
+                            <div class="section-title text-left">
+                                <div class="section-sub-title-box">
+                                    <p class="section-sub-title">Contact us</p>
+                                    <div class="section-title-shape-1">
+                                        <img src="~/Content/assets/images/shapes/section-title-shape-1.png" alt="">
+                                    </div>
+                                    <div class="section-title-shape-2">
+                                        <img src="~/Content/assets/images/shapes/section-title-shape-2.png" alt="">
+                                    </div>
+                                </div>
+                                <h2 class="section-title__title">Feel free to Create Account</h2>
+                            </div>
+                            <div class="contact-page__call-email">
+                                <div class="contact-page__call-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-page__call-email-content">
+                                    <h4>
+                                        <a href="tel:923140259522" class="contact-page__call-number">+92 (314) 025-9522</a>
+                                        <a href="mailto:muhammahu7246@gmail.com"
+                                           class="contact-page__email">muhammahu7246@gmail.com</a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <p class="contact-page__location-text">Surjani Town, Karachi <br> Pakistan</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="contact-page__right">
+                            <div class="contact-page__form">
+
+                                @using (Html.BeginForm("Registration", "User", FormMethod.Post, new { @class = "comment-one__form contact-form-validated" }))
+                                {
+                                    @Html.AntiForgeryToken() <!-- CSRF Protection -->
+
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Name)
+                                                @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "Your Name", required = "required" })
+                                                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6">
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Email)
+                                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", placeholder = "Email Address", required = "required", type = "email" })
+                                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6">
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Phone)
+                                                @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", placeholder = "Phone Number", required = "required", type = "tel" })
+                                                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6">
+                                            <div class="form-group">
+                                                @Html.LabelFor(model => model.Password)
+                                                @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password", required = "required" })
+                                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-xl-12">
+                                            <div class="comment-form__btn-box">
+                                                <button type="submit" class="btn btn-primary text-secondary">@Html.ActionLink("registration", "login", "user")</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                                @if (ViewBag.ErrorMessage != null)
+                                {
+                                    <div class="alert alert-danger">
+                                        @ViewBag.ErrorMessage
+                                    </div>
+                                }
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact Page End-->
+        <!--CTA One Start-->
+        <section class="cta-one cta-three">
+            <div class="container">
+                <div class="cta-one__content">
+                    <div class="cta-one__inner">
+                        <div class="cta-one__left">
+                            <h3 class="cta-one__title">Find a local insurance agent</h3>
+                        </div>
+                        <div class="cta-one__right">
+                            <div class="cta-one__call">
+                                <div class="cta-one__call-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="cta-one__call-number">
+                                    <a href="tel:9200368090">+92 (003) 68-090</a>
+                                    <p>Call to Our Experts</p>
+                                </div>
+                            </div>
+                            <div class="cta-one__btn-box">
+                                <a href="contact.html" class="thm-btn cta-one__btn">Get a Quote</a>
+                            </div>
+                        </div>
+                        <div class="cta-one__img">
+                            <img src="~/Content/assets/images/resources/cta-one-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CTA One End-->
+        <!--Google Map Start-->
+        <section class="google-map-two">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                    class="google-map__two" allowfullscreen></iframe>
+
+        </section>
+        <!--Google Map End-->
+        <!--Site Footer Start-->
+        @{ Html.RenderPartial("_footer"); }
+        <!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image">
+                    <img src="~/Content/assets/images/resources/logo-2.png" width="143"
+                         alt="">
+                </a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here...">
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+</body>
+
+
+<!-- Mirrored from pixydrops.com/insur-html/main-html/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:51:54 GMT -->
+</html>

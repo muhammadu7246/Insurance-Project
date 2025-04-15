@@ -1,0 +1,588 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\e_project\\infr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|e:\\e_project\\infr\\infr\\views\\shared\\_slide_bar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\shared\\_slide_bar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|e:\\e_project\\infr\\infr\\views\\admin\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\admin\\user.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\admin\\login_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\admin\\login_admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\user\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\user\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\faqs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\faqs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\home_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\home_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\life_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\life_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\medical_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\medical_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\moter_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\moter_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\policy_proposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\policy_proposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\shared\\_user_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\shared\\_user_nav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|E:\\e_project\\infr\\infr\\views\\home\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93D08C74-3CFC-4F22-A9CE-1068CD75528B}|infr\\infr.csproj|solutionrelative:infr\\views\\home\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\price.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\policy_Proposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\policy_Proposal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\moter_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\moter_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\Medical_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\Medical_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\life_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\life_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\Home_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\Home_insurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\FAQS.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\FAQS.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\Contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\e_project\\infr\\infr\\Views\\User\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:infr\\Views\\User\\About.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_navbar.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Shared\\_navbar.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Shared\\_navbar.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Shared\\_navbar.cshtml",
+              "RelativeToolTip": "infr\\Views\\Shared\\_navbar.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:11:44.214Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:10:45.609Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "user.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Admin\\user.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Admin\\user.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Admin\\user.cshtml",
+              "RelativeToolTip": "infr\\Views\\Admin\\user.cshtml",
+              "ViewState": "AgIAAAAEAAAAAAAAAAAAAA0EAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T08:37:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Slide_bar.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Shared\\_Slide_bar.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Shared\\_Slide_bar.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Shared\\_Slide_bar.cshtml",
+              "RelativeToolTip": "infr\\Views\\Shared\\_Slide_bar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:52:30.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "infr\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAFAEAAAAAAAAAAAcwHEEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:46:14.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login_Admin.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Admin\\Login_Admin.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Admin\\Login_Admin.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Admin\\Login_Admin.cshtml",
+              "RelativeToolTip": "infr\\Views\\Admin\\Login_Admin.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowCwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-27T07:34:17.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "infr\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "infr\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T18:22:46.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "price.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\price.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\price.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\price.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\price.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:21:25.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "portfolio.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\portfolio.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\portfolio.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\portfolio.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\portfolio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:21:20.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\login.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\login.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\login.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\login.cshtml",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAcwJkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T17:42:40.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "policy_Proposal.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\policy_Proposal.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\policy_Proposal.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\policy_Proposal.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\policy_Proposal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:21:15.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "moter_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\moter_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\moter_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\moter_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\moter_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:21:10.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "registration.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\registration.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\registration.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\registration.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\registration.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T17:22:17.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Medical_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\Medical_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\Medical_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\Medical_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\Medical_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:21:06.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "life_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\life_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\life_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\life_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\life_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:54.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:50.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\Index.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:43.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Home_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\Home_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\Home_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\Home_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\Home_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:38.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FAQS.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\FAQS.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\FAQS.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\FAQS.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\FAQS.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:32.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\Contact.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\Contact.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\Contact.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\Contact.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:20:22.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\User\\About.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\User\\About.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\User\\About.cshtml",
+              "RelativeToolTip": "infr\\Views\\User\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:19:33.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:55:44.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\Home_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\Home_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\Home_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\Home_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:02:25.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:16:23.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FAQS.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\FAQS.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\FAQS.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\FAQS.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\FAQS.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:44:07.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\About.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T12:12:30.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "infr\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Controllers\\UserController.cs",
+              "RelativeToolTip": "infr\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwEoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T17:21:56.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "life_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\life_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\life_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\life_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\life_insurance.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:06:58.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Medical_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\Medical_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\Medical_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\Medical_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\Medical_insurance.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:16:11.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "moter_insurance.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\moter_insurance.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\moter_insurance.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\moter_insurance.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\moter_insurance.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:17:29.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "policy_Proposal.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\policy_Proposal.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\policy_Proposal.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\policy_Proposal.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\policy_Proposal.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:02:30.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_User_nav.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Shared\\_User_nav.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Shared\\_User_nav.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Shared\\_User_nav.cshtml",
+              "RelativeToolTip": "infr\\Views\\Shared\\_User_nav.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAEBlwB0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T18:12:49.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "infr\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "infr\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T12:43:31.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "price.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\price.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\price.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\price.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\price.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAQwN0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:26:13.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "portfolio.cshtml",
+              "DocumentMoniker": "E:\\e_project\\infr\\infr\\Views\\Home\\portfolio.cshtml",
+              "RelativeDocumentMoniker": "infr\\Views\\Home\\portfolio.cshtml",
+              "ToolTip": "E:\\e_project\\infr\\infr\\Views\\Home\\portfolio.cshtml",
+              "RelativeToolTip": "infr\\Views\\Home\\portfolio.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAowBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T13:20:34.983Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

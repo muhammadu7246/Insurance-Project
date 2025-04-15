@@ -1,0 +1,113 @@
+<header class="main-header clearfix">
+    <div class="main-header__top">
+        <div class="container">
+            <div class="main-header__top-inner">
+                <div class="main-header__top-address">
+                    <ul class="list-unstyled main-header__top-address-list">
+                        <li>
+                            <i class="icon">
+                                <span class="icon-pin"></span>
+                            </i>
+                            <div class="text">
+                                <p>Surjani Town, Karachi, Pakistan</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="icon">
+                                <span class="icon-email"></span>
+                            </i>
+                            <div class="text">
+                                <p><a href="mailto:muhammadu7246.com">Muhammadu72462@gmail.com</a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-header__top-right">
+                    <div class="main-header__top-menu-box">
+                        <ul class="list-unstyled main-header__top-menu">
+
+                            @*<li><a href="">@Html.ActionLink("FAQS", "FAQS", "Home")</a></li>*@
+                            <li><a href="about.html">@Html.ActionLink("About", "about", "Home")</a></li>
+                            <li><a href="about.html">@Html.ActionLink("FAQS", "FAQS", "Home")</a></li>
+                        </ul>
+                    </div>
+                    <div class="main-header__top-social-box">
+                        <div class="main-header__top-social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="main-menu clearfix">
+        <div class="main-menu__wrapper clearfix">
+            <div class="container">
+                <div class="main-menu__wrapper-inner clearfix">
+                    <div class="main-menu__left">
+                        <div class="main-menu__logo">
+                            <a href="index.html"><img src="~/Content/assets/images/resources/logo-1.png" alt=""></a>
+                        </div>
+                        <div class="main-menu__main-menu-box">
+                            <div class="main-menu__main-menu-box-inner">
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <ul class="main-menu__list">
+                                    <li class="dropdown">
+                                        <a href="#">@Html.ActionLink("Home", "index", "Home")</a>
+                                      
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">@Html.ActionLink("Insurance", "insurance", "Home") </a>
+                                        <ul>
+                                            <li><a href="insurance-03.html">@Html.ActionLink("Life Insurance", "Life_insurance", "Home")</a></li>
+                                            <li><a href="car-insurance.html">@Html.ActionLink("Medical Insurance", "Medical_insurance", "Home")</a></li>
+                                            <li><a href="life-insurance.html">@Html.ActionLink("Moter Insurance", "Moter_insurance", "Home")</a></li>
+                                            <li><a href="life-insurance.html">@Html.ActionLink("Home Insurance", "home_insurance", "Home")</a></li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#">@Html.ActionLink("About", "About", "Home")</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">@Html.ActionLink("price", "price", "Home") </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">@Html.ActionLink("Proposal", "policy_Proposal", "Home") </a>
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="contact.html">@Html.ActionLink("Contact", "contact", "Home") </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="main-menu__main-menu-box-search-get-quote-btn">
+                               
+                                <div class="main-menu__main-menu-box-get-quote-btn-box thm-btn main-menu__main-menu-box-get-quote-btn">
+                                    <a href="#" class="">@Html.ActionLink("Registration", "Registration", "User")</a>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="main-menu__right">
+                        <div class="main-menu__call">
+                            <div class="main-menu__call-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="main-menu__call-content">
+                                <a href="tel:923140259522">+92 (314) 02-59522</a>
+                                <p>Call to Our Experts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

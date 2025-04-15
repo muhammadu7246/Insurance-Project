@@ -1,0 +1,25 @@
+﻿@model List<infr.Models.Claim>
+
+<h2>Activated Claims</h2>
+
+<table border="1">
+    <tr>
+        <th>Claim ID</th>
+        <th>Holder ID</th>
+        <th>User ID</th>
+        <th>Claim Date</th>
+        <th>Claim Amount</th>
+        <th>Status</th>
+    </tr>
+    @foreach (var claim in Model)
+    {
+        <tr>
+            <td>@claim.ClaimId</td>
+            <td>@claim.HolderId</td>
+            <td>@claim.UserId</td>
+            <td>@claim.ClaimDate.ToShortDateString()</td>
+            <td>@claim.ClaimAmount</td>
+            <td>@claim.Status</td>
+        </tr>
+    }
+</table>

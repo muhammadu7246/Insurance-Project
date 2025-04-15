@@ -1,0 +1,160 @@
+@model infr.Models.user
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+
+
+    <div class="page-wrapper">
+        @{ Html.RenderPartial("_user_nav"); }
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+            </div>
+            <div class="page-header-shape-1"><img src="assets/images/shapes/page-header-shape-1.png" alt=""></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><span>/</span></li>
+                        <li>Login register</li>
+                    </ul>
+                    <h2>Login register</h2>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+        <!--Sign In Start -->
+        <section class="sign-in">
+            <div class="container">
+                <div class="sign-in__top">
+                    <p>
+                        We don't have a account setup. <span>Username:</span> <span class="span-two">demo</span> and
+                        <span>Password:</span> <span class="span-two">demo || </span><a href="">@Html.ActionLink(" so create an Accpunt", "Registration", "User") </a>
+
+                    </p>
+
+                </div>
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="sign-in__single">
+                            <h3 class="sign-in__title">Login</h3>
+
+
+                            @using (Html.BeginForm("Login", "User", FormMethod.Post, new { @class = "sign-in__form" }))
+                            {
+                @Html.AntiForgeryToken()
+
+                                <div class="sign-in__form-input-box">
+                                    @Html.TextBoxFor(model => model.Email, new { @class = "form-control", type = "email", placeholder = "Username or Email address*" })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
+
+                                                <div class="sign-in__form-input-box">
+                                                    @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password*" })
+                                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                                </div>
+                                                     <div class="sign-in__form-btn-box">
+                                                                                    <button type="submit" class="thm-btn sign-in__form-btn">Login</button>
+                                                                                    <div class="sign-in__form-forgot-password">
+                                                                                    </div>
+                                                                                </div>}
+
+                            @if (ViewBag.ErrorMessage != null)
+                            {
+                <div class="alert alert-danger">
+                    @ViewBag.ErrorMessage
+                </div>}
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--Sign In End-->
+        @{ Html.RenderPartial("_navbar"); }
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image">
+                    <img src="assets/images/resources/logo-2.png" width="143"
+                         alt="">
+                </a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@insur.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here...">
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+</body>
+
+
+<!-- Mirrored from pixydrops.com/insur-html/main-html/sign-in.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2025 11:50:42 GMT -->
+</html>
